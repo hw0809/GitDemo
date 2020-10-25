@@ -2,12 +2,10 @@ package com.example.demo.controller;
 
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
 
-@RestController
-public class DevController {
+public class MasterController {
 
     @RequestMapping("/")
     public String indexwer(Model model, HttpServletResponse response) {
